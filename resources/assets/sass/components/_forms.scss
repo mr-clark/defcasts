@@ -1,0 +1,10 @@
+.search {
+	@apply .bg-grey-lighter .appearance-none .border-2 .border-grey-lighter .rounded .w-full .py-2 .px-4 .text-grey-darker;
+	&:hover {
+		@apply .border-purple;
+	}
+	&:focus {
+		@apply .no-outline .border-teal;
+	}
+}
+

@@ -1,0 +1,10 @@
+body {
+	font-family: 'Montserrat';
+}
+
+a {
+	@apply .no-underline .text-grey-darkest;
+	&:hover {
+		@apply .underline;
+	}
+}

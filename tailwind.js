@@ -90,7 +90,7 @@ let colors = {
 
   'teal-darkest': '#0d3331',
   'teal-darker': '#20504f',
-  'teal-dark': '#38a89d',
+  'teal-dark': '#00b1b3',
   'teal': '#4dc0b5',
   'teal-light': '#64d5ca',
   'teal-lighter': '#a0f0ed',
@@ -194,6 +194,7 @@ module.exports = {
 
   fonts: {
     'sans': [
+      'Montserrat',
       'system-ui',
       'BlinkMacSystemFont',
       '-apple-system',
@@ -220,6 +221,7 @@ module.exports = {
       'serif',
     ],
     'mono': [
+      'Operator Mono Lig',
       'Menlo',
       'Monaco',
       'Consolas',
@@ -838,11 +840,11 @@ module.exports = {
   modules: {
     appearance: ['responsive'],
     backgroundAttachment: ['responsive'],
-    backgroundColors: ['responsive', 'hover'],
+    backgroundColors: ['responsive', 'hover', 'focus'],
     backgroundPosition: ['responsive'],
     backgroundRepeat: ['responsive'],
     backgroundSize: ['responsive'],
-    borderColors: ['responsive', 'hover'],
+    borderColors: ['responsive', 'hover', 'focus'],
     borderRadius: ['responsive'],
     borderStyle: ['responsive'],
     borderWidths: ['responsive'],
